@@ -34,7 +34,7 @@ export default function Header({ whatsappLink, instagram }: { whatsappLink: stri
         </div>
 
         <nav className="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
-          <a href={instagram} target="_blank" rel="noreferrer" className="text-sm text-white/90 px-3 py-2 rounded-md hover:bg-white/5 w-full sm:w-auto text-center">Instagram</a>
+          <a href={instagram} target="_blank" rel="noreferrer" style={{ background: "#4D00FF" }} className="text-sm px-4 py-2 rounded-full text-white font-medium hover:opacity-95 transition w-full sm:w-auto text-center">Instagram</a>
         </nav>
       </div>
     </header>
